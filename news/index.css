@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 40px 25vw;
+    background-color: rgb(252, 252, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+h1 {
+    color: var(--main-accent-blue)
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-accent-blue);
+    transition: 0.2s color;
+}
+
+a:hover, a:focus {
+    color: var(--main-accent-blue-hi);
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    line-height: 2em;
+}
+
+.section-break {
+    border-bottom: #ccc solid 2px;
+    width: 50%;
+}
+
+img.main-logo {
+    width: 40px;
+    max-width: 70px;
+}
+
+#root{
+    overflow-y: hidden;
+}
+
+:root{
+    --main-accent-blue: #0077b5;
+    --main-accent-blue-hi: #0087d0;
+    --warning-delete: #cf2a2a;
+    --warning-delete-hi: #ff6666;
+    --success-green: rgb(60, 161, 60);
+    --dark-bg: #282828;
+    --transparent: #00000000;
+    --golden: rgb(224, 185, 80);
+}
+
+.announcement {
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        padding: 80px;
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    h2, h2 a {
+        font-size: 3.3vh;
+    }
+
+    h3 {
+        font-size: 3.2vh;
+    }
+
+    p, p a, * {
+        font-size: 2vh;
+    }
+
+    .section-break {
+        border-bottom: #ccc solid 2px;
+        width: 100%;
+    }
+    
+    img.main-logo {
+        width: 10vw;
+    }
+}
