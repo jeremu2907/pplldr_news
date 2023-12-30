@@ -92,6 +92,20 @@ img.main-logo {
 .announcement {
     margin: 50px 0;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.691);
+    width: 100%;
+    padding: 50px;
+}
+
+.confetti {
+    background-image: url('./confetti.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-btn {
