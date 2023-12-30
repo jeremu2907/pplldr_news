@@ -94,7 +94,7 @@ img.main-logo {
     text-align: center;
 }
 
-a .back-home {
+.home-btn {
     background-color: var(--transparent);
     border: none;
     color: #777;
@@ -106,10 +106,6 @@ a .back-home {
         color: #777;
         width: fit-content;
     }
-}
-
-a .back-home:hover, a .back-home:hover p {
-    color: #777;
 }
 
 @media only screen and (max-width: 1000px) {
