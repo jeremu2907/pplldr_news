@@ -103,11 +103,12 @@ img.main-logo {
 
     p {
         margin: 0;
+        color: #777;
         width: fit-content;
     }
 }
 
-.back-home:hover {
+.back-home:hover p {
     color: #777;
 }
 
