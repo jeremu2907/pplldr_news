@@ -94,7 +94,7 @@ img.main-logo {
     text-align: center;
 }
 
-a.back-home {
+.back-home {
     background-color: var(--transparent);
     border: none;
     color: #777;
@@ -108,7 +108,7 @@ a.back-home {
     }
 }
 
-a.back-home:hover, a.back-home:hover p {
+.back-home:hover, .back-home:hover p {
     color: #777;
 }
 
