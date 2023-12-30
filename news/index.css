@@ -60,6 +60,7 @@ p {
 .section-break {
     border-bottom: #ccc solid 2px;
     width: 50%;
+    margin-bottom: 100px;
 }
 
 img.main-logo {
