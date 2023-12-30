@@ -1,0 +1,9 @@
+#news-list {
+    p {
+        line-height: 1em;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
