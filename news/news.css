@@ -7,6 +7,10 @@
         font-size: 20px;
     }
 
+    h5 {
+        font-size: 17px;
+    }
+
     display: flex;
     flex-direction: column;
     gap: 20px;
