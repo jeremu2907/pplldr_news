@@ -2,6 +2,12 @@ const newsListDiv = document.getElementById('news-list');
 
 const newsListInfo = [
     {
+        date: "January 18th, 2023",
+        title: "Transitioning to civilian life:",
+        titleExt: "Things to keep in mind during your military to corporate move",
+        url: "jan182024.html",
+    },
+    {
         date: "January 11th, 2023",
         title: "Navigating the Corporate Landscape:",
         titleExt: "Overcoming Challenges in Military-to-Civilian Transition",
