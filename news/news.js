@@ -2,8 +2,14 @@ const newsListDiv = document.getElementById('news-list');
 
 const newsListInfo = [
     {
+        date: "January 31st, 2023",
+        title: "Podcast Kick-off:",
+        titleExt: "Leadership expert explains how employee feedback positively impacts the workplace",
+        url: "jan312024.html",
+    },
+    {
         date: "January 18th, 2023",
-        title: "Transitioning to civilian life:",
+        title: "Transitioning to Civilian Life:",
         titleExt: "Things to keep in mind during your military to corporate move",
         url: "jan182024.html",
     },
