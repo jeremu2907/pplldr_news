@@ -2,6 +2,12 @@ const newsListDiv = document.getElementById('news-list');
 
 const newsListInfo = [
     {
+        date: "February 14th, 2023",
+        title: "Giving Actionable Feedback:",
+        titleExt: "Developing effective leadership through actionable feedback: Building trust, engagement, and growth",
+        url: "feb142024.html", 
+    },
+    {
         date: "January 31st, 2023",
         title: "Podcast Kick-off:",
         titleExt: "Leadership expert explains how employee feedback positively impacts the workplace",
